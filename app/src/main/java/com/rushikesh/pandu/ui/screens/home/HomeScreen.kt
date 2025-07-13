@@ -121,8 +121,8 @@ fun MessageInput(viewModel: HomeViewModel) {
                 .onFocusChanged { isFocused = it.isFocused },
             shape = shape, // Rounded rectangle or capsule based on state
             colors = TextFieldDefaults.colors(
-                focusedContainerColor = Color(0xFF262626), // Background when focused
-                unfocusedContainerColor = Color(0xFF262626), // Background when unfocused
+                focusedContainerColor = Color(0xFF242424), // Background when focused
+                unfocusedContainerColor = Color(0xFF242424), // Background when unfocused
                 focusedIndicatorColor = Color.Transparent, // No underline
                 unfocusedIndicatorColor = Color.Transparent, // No underline
                 disabledIndicatorColor = Color.Transparent, // No underline
