@@ -21,6 +21,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize().background(Color.Red)
                 ) {
                     HomeScreen()
+                    // experiment
                 }
             }
         }
